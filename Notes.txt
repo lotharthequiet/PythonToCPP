@@ -25,3 +25,5 @@ Exponentiation in C++ is done using pow() from the cmath library and the remaind
 
 In C++ single quotes are used for the character (char) data type, and double quotes are used for the string data type.
 
+POINTER - reference the address, in C++ we use the address-of operator, &.
+
