@@ -27,3 +27,31 @@ In C++ single quotes are used for the character (char) data type, and double quo
 
 POINTER - reference the address, in C++ we use the address-of operator, &.
 
+When declaring a pointer in C++ that will “point” to the memory address of some data type, you will use the same rules of declaring variables and data types. The key difference is that there must be an asterisk (*) between the data type and the identifier.
+
+variableType *identifier; // syntax to declare a C++ pointer
+int *ptrx; // example of a C++ pointer to an integer
+
+White space in C++ generally does not matter, so the following pointer declarations are identical:
+
+SOMETYPE *variablename; // preferable
+SOMETYPE * variablename;
+SOMETYPE* variablename;
+
+However, the first declaration is preferable because it is clearer to the programmer that the variable is in fact a pointer because the asterisk is closer to the variable name.
+
+Now that we know how to declare pointers, how do we give them the address of where the value is going to be stored? One way to do this is to have a pointer refer to another variable by using the address-of operator, which is denoted by the ampersand symbol, &. The address-of operator & does exactly what it indicates, variableType varN; // a variable to hold the value namely it returns the address.
+
+The syntax is shown below, where varN stores the value, and ptrN stores the address of where varN is located:
+
+variableType *ptrN = &varN;  // a variable pointing to the address of varN
+
+Keep in mind that when declaring a C++ pointer, the pointer needs to reference the same type as the variable or constant to which it points.
+
+Expanding on the example above where varN has the value of 9.
+
+//variable declaration for a single integer value
+int varN = 9;
+int *ptrN;
+ptrN = &varN;
+
