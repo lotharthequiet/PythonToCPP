@@ -1,19 +1,20 @@
 Notes: 
 
 
-
+COMMENTS
 // The remainder of this line is a C++ comment which is ignored by the compiler
 
 /* This is a multi-line C++ comment that can
 span many lines, beginning and ending with the given symbols */
 
-
+VARIABLE DEFINITION
 C++ requires the users specify the specific data type of each variable before it is used. The primary C++ built-in atomic data 
 types are: integer (int), floating point (float), double precision floating point (double), Boolean (bool), and character (char). 
 There is also a special type which holds a memory location called pointer.
 
 Numeric C++ data types include int for integer, float for floating point, double for double precision floating point.
 
+MATH OPERATIONS
 The standard arithmetic operations, +, -, *, and / are used with optional parentheses to force the order of operations away from normal operator 
 precedence.
 
@@ -25,7 +26,8 @@ Exponentiation in C++ is done using pow() from the cmath library and the remaind
 
 In C++ single quotes are used for the character (char) data type, and double quotes are used for the string data type.
 
-POINTER - reference the address, in C++ we use the address-of operator, &.
+POINTERS
+Reference the memory address, in C++ we use the address-of operator, &.
 
 When declaring a pointer in C++ that will “point” to the memory address of some data type, you will use the same rules of declaring variables and data types. The key difference is that there must be an asterisk (*) between the data type and the identifier.
 
@@ -54,4 +56,5 @@ Expanding on the example above where varN has the value of 9.
 int varN = 9;
 int *ptrN;
 ptrN = &varN;
+
 
