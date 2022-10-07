@@ -58,3 +58,17 @@ int *ptrN;
 ptrN = &varN;
 
 
+Here are some of the logical operators that are useful for true-false boolean statements in C++.
+and          - &&
+or           - ||
+not equal to - !=
+not          - !
+greater than - >
+less than    - <
+greater than
+or equal to  - >=
+less than
+or equal to  - <=
+
+
+
